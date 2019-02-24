@@ -16,4 +16,15 @@ How many times does the loop body run each frame, once the x and y arrays are fu
 
 What are two ways of increasing the spacing between rings?
 
+1.by increasing the number "10" in 
+
+    for (var i = 0; i < x.length; i = i + 10)
+    
+2. by adding "i" in the increment section in 
+    
+
 How can you make the ellipse trail longer?
+
+By increasing the number "1" in
+
+    ellipse(x[i], y[i], 1 + (x.length - i));
