@@ -20,9 +20,14 @@ What are two ways of increasing the spacing between rings?
 
     for (var i = 0; i < x.length; i = i + 10)
     
-2. by adding "i" in the increment section in 
-    
+2.by adding the third "i" in the in 
 
+    ellipse(x[i], y[i], 1 + (x.length - i) )
+    
+for example
+
+    ellipse(x[i], y[i], 1 + (x.length + 20*i) )
+    
 How can you make the ellipse trail longer?
 
 By increasing the number "1" in
