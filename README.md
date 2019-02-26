@@ -30,6 +30,6 @@ for example
     
 How can you make the ellipse trail longer?
 
-By increasing the number "1" in
+By decreasing the number "10" in
 
-    ellipse(x[i], y[i], 1 + (x.length - i));
+    for (var i = 0; i < x.length; i = i + 10)
