@@ -2,7 +2,7 @@
 
 P&E Homework 4
 
-This repository is for Computational Practice 1 Assignment 2
+This repository is for Computational Practice 1 Assignment 4
 
 How many lines are drawn each frame? In other words, how often does the for loop run?
 
